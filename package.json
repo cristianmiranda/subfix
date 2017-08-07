@@ -1,0 +1,32 @@
+{
+  "name": "subfix",
+  "version": "0.0.1",
+  "description": "Sync your (srt) subtitles using the command line. Based on https://github.com/spion/subsync. Thanks to spion <gorgi.kosev@gmail.com>.",
+  "main": "subfix.js",
+  "bin": {
+    "subfix": "./subfix.js"
+  },
+  "keywords": [
+    "sub",
+    "subs",
+    "subtitle",
+    "subtitles",
+    "sync",
+    "delay",
+    "fix"
+  ],
+  "dependencies": {
+    "optimist": "~0.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cristianmiranda/subfix.git"
+  },
+  "author": "cristianmiranda <crism60@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
